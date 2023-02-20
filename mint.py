@@ -39,7 +39,7 @@ def roundnround():
         tank.on_for_seconds(30, 80, 1.5)
 
 #def jail():
-    #tank.on_for_seconds(10,40, 7)
+    #tank.on_for_seconds(10, 40, 7)
     #if ultrasensor.distance_centimeters_continuous < 10:
 
 def green():
@@ -57,3 +57,7 @@ def green2():
         leftMotor.on(speed = 50)
         rightMotor.on(speed = 20)
         sleep(3)
+
+def balls():
+    tank.on_for_seconds(30, -30, 1.6)
+    
